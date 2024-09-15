@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right ,rgb(51, 51, 219),rgb(116, 108, 108),rgb(234, 29, 234));
+    font-family: "Nunito Sans", sans-serif;
+    width: 100%;
+}
+.nav-btn{
+    padding: 12px 28px;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #c8cfd3;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    animation: slideTop 1s ease forwards ;
+    animation-delay: 2s;
+}
+.nav-btn:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+    color: rgb(0, 222, 247);
+    background-color: rgb(145, 135, 135);
+    border: none !important;
+}
+
+.home-left{
+    color: white;
+    text-align: justify;
+    margin-top: 150px;
+
+}
+.home-left h1{
+    font-size: 50px;
+    color: rgb(212, 184, 239);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+.home-left p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #c8cfd3;
+
+}
+.home-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-right img {
+    width: 80%;
+    height: 550px;
+    filter: drop-shadow(0 0 0.75rem rgb(90, 223, 249));
+    transition: transform 0.8s ease-in-out;
+    
+}
+.home-right img:hover{
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+.cv-button{
+    display: flex;
+    justify-content: end;
+}
+.cv-button button{
+    border: 1px solid black !important;
+    color: black;
+    
+}
+.social-media{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.social-media a {
+    padding: 12px 18px;
+    color: #000000;
+    text-decoration: none;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+}
+
+.social-media a i {
+    transition: all 0.3s ease;
+}
+
+.social-media a:hover i {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+    color: rgb(0, 222, 247);
+}
+/* About us */
+.about-me h3{
+    font-size: 40px;
+    margin-top: 65px;
+    font-weight: 600;
+
+}
+.about-me p{
+    word-spacing: 1px;
+    color: #c8cfd3;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.custom-card {
+    transition: transform 0.3s, box-shadow 0.3s; 
+    margin: 0 auto; 
+    background-image: linear-gradient(to right ,rgb(51, 51, 219),rgb(116, 108, 108),rgb(234, 29, 234));
+    border: none;
+    width: 100%;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.heading-project h3{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    
+}
+.custom-card h4{
+    text-decoration:underline;
+}
+.custom-card p{
+    color: #c8cfd3;
+    font-size: 17px;
+
+}
+.card-body a{
+    border: 1px solid black !important;
+    color: black;
+    margin-bottom: 12px;
+}
+
+/* skills */
+.skill-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+   
+}
+.skill-image h5{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.skill-image img:hover {
+    transform: scale(1.50); 
+  }
+
+  /* contact us */
+.contact-button{
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+.contact-button button{
+    border: 1px solid black !important;
+    color: black;
+}
+
+/* footer */
+
+
+
+
+/* animation */
+/* sub-heading for first-word */
+
+.bounce-animation{
+    display: inline-block;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+

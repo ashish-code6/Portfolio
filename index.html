@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="Logo" style="width:40px;" class="rounded-pill ms-5">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end me-5" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link nav-btn" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-btn" href="#about">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-btn" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-btn" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-btn" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Page Start -->
+  <section id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6">
+          <div class="home-left">
+            <h1>Hi I'm Ashish Kumar</h1>
+            <p>As a MERN stack developer, I build dynamic web applications using MongoDB,
+               Express, React, and Node.js. I focus on creating seamless user experiences,
+               efficient back-end systems, and scalable, clean code to deliver high-quality,
+               full-stack solutions.</p>
+            <div class="social-media">
+              <a href="https://github.com/ashish-code6"><i class="fa-brands fa-github fa-2x fa-bounce"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram fa-2x fa-bounce"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin fa-2x fa-bounce"></i></a>
+            </div>
+            <div class="cv-button">
+              <button onclick="downloadResume()" class="btn nav-btn">Download CV</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="home-right">
+            <img src="images/image1.png" alt="Profile Image"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Home Page End -->
+
+  <!-- About Page Start -->
+  <section id="about">
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-xl-5"></div>
+        <div class="col-xl-7">
+          <div class="about-me">
+            <h3><span class="bounce-animation">A</span>bout us</h3>
+            <p>I am an enthusiastic B.Tech graduate in Information Technology,
+               set to graduate in 2024. Throughout my academic journey,
+               I have developed a strong foundation in core IT principles,
+               including software development, web technologies,
+               and database systems.<br/> I have a keen interest in exploring
+               the latest advancements in technology and applying
+               them to solve real-world problems. During my coursework,
+               I have gained hands-on experience in various programming
+               languages such as C, C++, Java, Python, and web development
+               tools like HTML, CSS, and JavaScript. Additionally,
+               I have worked on several academic projects
+               that have not only enhanced my technical skills but also taught
+               me the importance of teamwork, problem-solving, and adaptability.
+               <br/> As a fresher, I am seeking a dynamic work environment where
+               I can leverage my technical skills, grow professionally, and contribute
+               to the success of the organization. I believe my passion for learning,
+               coupled with my technical knowledge, will allow me to bring fresh perspectives
+               and contribute meaningfully to any team.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Page End -->
+
+  <!-- Project Page Start -->
+  <section id="projects">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="heading-project">
+          <h3 class="text-center"><span class="bounce-animation">P</span>rojects</h3>
+        </div>
+        <div class="col-xl-3">
+          <div class="project mt-3">
+            <div class="card custom-card">
+              <img class="card-img-top" src="images/1.png" alt="JavaScript Quiz App">
+              <div class="card-body">
+                <h4 class="card-title text-success-emphasis">JavaScript Quiz App</h4>
+                <p class="card-text">A JavaScript quiz app prompts users
+                   with questions, collects their input,
+                   and provides immediate feedback on their answers.</p>
+                <a href="https://javascript-quizeroute.netlify.app/" class="btn nav-btn">See Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="project mt-3">
+            <div class="card custom-card">
+              <img class="card-img-top" src="images/2.png" alt="To-Do App">
+              <div class="card-body">
+                <h4 class="card-title text-success-emphasis">To-Do App</h4>
+                <p class="card-text">A to-do app allows users to create, manage,
+                   and track tasks efficiently in a simple,
+                   interactive interface, and also delete tasks.</p>
+                <a href="https://taskorbital.netlify.app/" class="btn nav-btn">See Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="project mt-3">
+            <div class="card custom-card">
+              <img class="card-img-top" src="images/3.png" alt="Weather App">
+              <div class="card-body">
+                <h4 class="card-title">Weather App</h4>
+                <p class="card-text">A weather app provides real-time weather updates, forecasts,
+                   and conditions based on the user's location.</p>
+                <a href="#" class="btn nav-btn">See Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="project mt-3">
+            <div class="card custom-card">
+              <img class="card-img-top" src="images/4.png" alt="Quotes">
+              <div class="card-body">
+                <h4 class="card-title">Quotes</h4>
+                <p class="card-text">A quotes generator app provides users with random inspiring, motivational,
+                   or thought-provoking quotes at the click of a button.</p>
+                <a href="https://legend-quotes.netlify.app/" class="btn nav-btn">See Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Project Page End -->
+
+     <!-- skills page -start -->
+     <section id="skills">
+     <div class="container mt-4">
+      <div class="heading-project">
+        <h3 class="text-center mt-5"><span class="bounce-animation">S</span>kills</h3>
+      </div>
+      <div class="row">
+          <div class="col-xl-2">
+           <div class="skill-image">
+            <img src="/images/12.png">
+            <h5 class="text-center">HTML</h5>
+           </div>
+          </div>
+          <div class="col-xl-2">
+            <div class="skill-image">
+             <img src="/images/13.png">
+             <h5 class="text-center">CSS</h5>
+            </div>
+           </div>
+           <div class="col-xl-2">
+            <div class="skill-image">
+             <img src="/images/14.png">
+             <h5 class="text-center">JavaScript</h5>
+            </div>
+           </div>
+           <div class="col-xl-2">
+            <div class="skill-image">
+             <img src="/images/5.png">
+             <h5 class="text-center">C++</h5>
+            </div>
+           </div>
+           <div class="col-xl-2">
+            <div class="skill-image">
+             <img src="/images/6.png">
+             <h5 class="text-center">React</h5>
+            </div>
+           </div>
+           <div class="col-xl-2">
+            <div class="skill-image">
+             <img src="/images/7.png">
+             <h5 class="text-center">Boostrap</h5>
+            </div>
+           </div>
+           <div class="row">
+            <div class="col-xl-2">
+             <div class="skill-image">
+              <img src="/images/8.png">
+              <h5 class="text-center">database</h5>
+             </div>
+            </div>
+            <div class="col-xl-2">
+              <div class="skill-image">
+               <img src="/images/9.png">
+               <h5 class="text-center">SQL</h5>
+              </div>
+             </div>
+             <div class="col-xl-2">
+              <div class="skill-image">
+               <img src="/images/10.png">
+               <h5 class="text-center">IoT</h5>
+              </div>
+             </div>
+             <div class="col-xl-2">
+              <div class="skill-image">
+               <img src="/images/11.png">
+               <h5 class="text-center">Node JS</h5>
+              </div>
+             </div>
+             <div class="col-xl-2">
+              <div class="skill-image">
+                <img src="/images/15.png">
+                <h5 class="text-center">Mongo db</h5>
+              </div>
+             </div>
+             <div class="col-xl-2">
+              <div class="skill-image">
+              </div>
+             </div>
+      </div>
+     </div>
+     </section>
+     <!-- skills page- end  -->
+
+  <!-- Contact Page Start -->
+  <section id="contact">
+    <form onsubmit="emailSend();reset(); return false">
+    <div class="container mt-4 mb-4">
+      <div class="contact-us">
+        <div class="heading-project">
+          <h3 class="text-center mt-5"><span class="bounce-animation">C</span>ontact us</h3>
+        </div>
+
+      <div class="row">
+        <div class="col-xl-3"></div>
+        <div class="col-xl-6">
+          <div class="name">
+            <p>Name :</p>
+            <input type="text" class="form-control required bg-transparent" placeholder="Enter Your Name "/>
+          </div>
+          <div class="name">
+            <p >Email :</p>
+            <input type="email" class="form-control required bg-transparent" placeholder="Enter your Email.."/>
+          </div>
+         
+          <div class="name">
+          <p>Mobile No :</p>
+          <input type="number" class="form-control required bg-transparent" placeholder="Enter Your Mobile"/>
+        </div>
+        
+        <div class="name mt-3">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="options" id="male" value="option1" checked>
+            <label class="form-check-label" for="option1">
+              Male
+            </label>
+          </div>
+          
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="options" id="female" value="option2">
+            <label class="form-check-label" for="option2">
+              Female
+            </label>
+          </div>
+          
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="options" id="not-say" value="option3">
+            <label class="form-check-label" for="option3">
+              Prefer Not to Say
+            </label>
+          </div>
+         
+        </div>
+        <div class="name">
+          <textarea class="form-control bg-transparent mb-4"placeholder="Enter Messasge!..... "></textarea>
+        </div>
+        <div class="contact-button">
+          <button class="btn nav-btn"> Submit</button>
+        </div>
+      </div>
+        <div class="col-xl-3"></div>
+  
+      </div>
+    </div>
+    </div>
+    </form>
+
+  </section>
+  <!-- Contact Page End -->
+
+  <!-- footer start -->
+   <footer class="container-fluid bg-dark p-4">
+    <div class="social-media">
+      <a href="https://github.com/ashish-code6"><i class="fa-brands fa-github fa-2x fa-bounce"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram fa-2x fa-bounce"></i></a>
+      <a href="https://www.linkedin.com/in/ashish-kumar-496970246/"><i class="fa-brands fa-linkedin fa-2x fa-bounce"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook fa-2x fa-bounce"></i></a>
+    </div>
+    <div class="text-center p-3 text-white">
+      © 2020 Copyright:
+      <a class="text-white">Ashish kumar</a>
+    </div>
+
+   </footer>
+   <!-- footer end -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="obfuscated-script.min.js"></script>
+  <script src="app.js"></script>
+  
+</body>
+</html>
