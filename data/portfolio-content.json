@@ -1,0 +1,215 @@
+{
+  "home": {
+    "greeting": "Hey, I'm Ashish Kumar",
+    "role": "Associate Software Engineer @ Zybisys Technology",
+    "summary": "I craft digital experiences from front to back, building sleek interfaces with React and Next.js and powering them with robust backends using Node.js and MongoDB.",
+    "description": "At Zybisys Technologies, I work on real-world projects like admin dashboards, landing pages, and data-driven tools that deliver real value.",
+    "resumeUrl": "/resume.pdf",
+    "resumeLabel": "Download Resume",
+    "profileImage": "/images/profile.png"
+  },
+  "about": {
+    "heading": "About Me",
+    "paragraphs": [
+      "I'm Ashish Kumar, a Full Stack Developer at Arsoft Technologies, where I build scalable, real-world web applications that solve actual business problems.",
+      "I completed my graduation in 2024 and have experience working on diverse projects like admin panels, analytics dashboards, and landing pages using technologies such as React, Next.js, Node.js, and MongoDB.",
+      "I'm driven by code that's clean, purposeful, and user-centered."
+    ],
+    "highlightsHeading": "What I Bring to the Table",
+    "highlights": [
+      {
+        "title": "Technical Skills",
+        "text": "JavaScript, TypeScript, React, Next.js, Node.js, Express, MongoDB, REST APIs"
+      },
+      {
+        "title": "Problem Solving",
+        "text": "Strong C++ foundation with hundreds of solved DSA problems trained in logic, optimization, and algorithmic thinking."
+      },
+      {
+        "title": "Growth Mindset",
+        "text": "Always curious, always building. I stay on top of new tech and enjoy refining my skills through practical challenges."
+      }
+    ],
+    "skillsHeading": "My Skills",
+    "skills": [
+      "C++",
+      "JavaScript",
+      "Python",
+      "React Native",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Express",
+      "Git",
+      "CSS",
+      "Bootstrap",
+      "SQL",
+      "NoSQL",
+      "MongoDB",
+      "Data Structures & Algorithms"
+    ]
+  },
+  "education": {
+    "heading": "My Education Journey",
+    "items": [
+      {
+        "title": "10th Standard",
+        "subtitle": "Completed in 2017",
+        "detail": "",
+        "school": "Gyandeep High School, Patna",
+        "link": "https://www.gyandeephighschool.ac.in/",
+        "side": "left"
+      },
+      {
+        "title": "12th Standard",
+        "subtitle": "Completed in 2019",
+        "detail": "",
+        "school": "The Earth Public School, Patna",
+        "link": "https://www.tepspatna.com/",
+        "side": "right"
+      },
+      {
+        "title": "Graduation",
+        "subtitle": "B.Tech in Information Technology, 2020-2024",
+        "detail": "CGPA: 7.89",
+        "school": "Heritage Institute of Technology, Kolkata",
+        "link": "https://www.heritageit.edu/",
+        "side": "left"
+      },
+      {
+        "title": "(Oct/2024-2025/July)",
+        "subtitle": "Jr. Full Stack Developer",
+        "detail": "",
+        "school": "Arsoft Technologies ",
+        "link": "https://arsoftech.in/",
+        "side": "right"
+      },
+      {
+        "title": "Aug/2025-March-2026",
+        "subtitle": "Associate Software Engineer",
+        "detail": "",
+        "school": "",
+        "link": "",
+        "side": "left"
+      }
+    ]
+  },
+  "projects": {
+    "heading": "My Projects",
+    "items": [
+      {
+        "name": "PreSchool Website",
+        "image": "/images/project1.png",
+        "link": "https://radiant-longma-649e31.netlify.app/#/",
+        "description": "An interactive preschool website showcasing programs, events, and facilities.",
+        "frontend": [
+          "Next.js",
+          "Tailwind CSS",
+          "Framer Motion"
+        ],
+        "backend": [
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "Interior Design",
+        "image": "/images/project2.png",
+        "link": "https://prismatic-marshmallow-e8a98a.netlify.app/",
+        "description": "A portfolio site for interior design with visual galleries and modern layout.",
+        "frontend": [
+          "Next.js",
+          "Styled Components"
+        ],
+        "backend": [
+          "Firebase"
+        ]
+      },
+      {
+        "name": "Portfolio Website",
+        "image": "/images/project5.png",
+        "link": "/",
+        "description": "My personal portfolio website built to showcase my work and contact information.",
+        "frontend": [
+          "Next.js",
+          "Tailwind CSS",
+          "SEO"
+        ],
+        "backend": [
+          "Static Site"
+        ]
+      },
+      {
+        "name": "Cleaning and PestControl Website",
+        "image": "/images/project4.png",
+        "link": "https://effortless-axolotl-246499.netlify.app/",
+        "description": "A service booking website for cleaning and pest control with responsive UI.",
+        "frontend": [
+          "Next.js",
+          "Bootstrap"
+        ],
+        "backend": [
+          "Supabase",
+          "REST APIs"
+        ]
+      },
+      {
+        "name": "Donation Drive and Fundraise Website",
+        "image": "/images/project6.png",
+        "link": "https://gleeful-frangollo-f39937.netlify.app/",
+        "description": "Platform to organize donation campaigns and track fundraise progress.",
+        "frontend": [
+          "Next.js",
+          "Tailwind CSS"
+        ],
+        "backend": [
+          "Firebase",
+          "Cloud Functions"
+        ]
+      }
+    ],
+    "upcomingHeading": "Upcoming Projects",
+    "upcoming": [
+      {
+        "name": "Fake News Prediction Using ML",
+        "status": "Coming Soon..."
+      },
+      {
+        "name": "Sudoku Solver",
+        "status": "In Progress..."
+      }
+    ]
+  },
+  "profile": {
+    "heading": "Connect with Me",
+    "links": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ashish-kumar-496970246/",
+        "color": "#0077B5"
+      },
+      {
+        "platform": "LeetCode",
+        "url": "https://leetcode.com/u/Cookies_Byte/",
+        "color": "#FFA116"
+      },
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/ashish-code6",
+        "color": "#333333"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/@AshishKumar-f2v7l",
+        "color": "#FF0000"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Get in Touch",
+    "subheading": "I'd love to hear from you. Drop a message and I'll get back to you!",
+    "submitLabel": "Send Message",
+    "accessKey": "80000e56-2f20-47b1-99ed-b227ebd2b37e"
+  }
+}
